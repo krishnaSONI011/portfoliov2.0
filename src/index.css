@@ -1,0 +1,106 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Poppins:wght@300&display=swap');
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+
+}
+body{
+  background-color: #1a1527;
+  color: white;
+}
+.p-3{
+  padding: 30px;
+}
+.p-2{
+  padding:20px
+}
+.p-1{
+  padding:10px
+}
+.container{
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.purple-color{
+  color: blue;
+}
+.white-color{
+  color: #fff;
+}
+.size{
+  font-size: 30px;
+}
+.title{
+  font-family: 'Finger Paint', cursive;
+  font-size: 2.2rem;
+}
+.remove-underline-a{
+  text-decoration: none;
+  font-family: 'Finger Paint', cursive;
+}
+.align-items-center{
+  align-items: center;
+}
+.flex{
+  display: flex;
+}
+.justify-cotant-between{
+  justify-content: space-between;
+}
+.justify-cotant-space{
+  justify-content: space-evenly;
+}
+ul{
+list-style-type: none;
+
+}
+.menu{
+  width: 50%;
+  font-size: 1.4rem;
+}
+.Nav{
+  padding: 15px;
+}
+.silver-color{
+  color: silver;
+}
+.nav-links{
+  color:#fff9
+}
+.nav-links:hover{
+  color:#ffffffe3
+}
+.nav-links:focus{
+  color: #fff;
+}
+
+.timeline {
+  background-color: #5918df;
+  height: 300px;
+  width: 1px;
+  z-index: 9;
+  position: relative;
+}
+.text-center{
+  text-align: center !important;
+}
+.bullet::before{
+  content: "";
+  background-color: #1b191e;
+  border: 2px solid #5918df;
+  border-radius: 50%;
+  height: 9px;
+  position: absolute;
+  top: 0;
+  left: -5px;
+  width: 9px;
+  z-index: 10;
+}
+.start{
+  margin-top: 100px;
+}
