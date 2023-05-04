@@ -104,3 +104,15 @@ list-style-type: none;
 .start{
   margin-top: 100px;
 }
+/* .bg-white::after{
+  content: "l ";
+  background-color: #fff;
+  height: 20px;
+  width: 0%;
+  z-index: 10;
+  position: absolute;
+  
+} */
+.pl{
+  padding-left: 10px;
+}
