@@ -1,13 +1,16 @@
 import Home from './Components/Home';
 import Navbar from './Components/Navbar';
 import css from './index.css'
-import image from './images/nosignal.gif'
+import Skill from './Components/Skill'
+
+
 function App() {
   
   return (
-    <>
+    < >
       <Navbar/>
       <Home/>
+      <Skill/>
     </>
   );
 }

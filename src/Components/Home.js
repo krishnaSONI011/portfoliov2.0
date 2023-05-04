@@ -123,6 +123,9 @@ let Home = () => {
                     </div>
                 </motion.div>
             </div>
+                    <div className="letmeshow silver-color pl">
+                        <h3>Let Me show..</h3>
+                    </div>
         </div>
     )
 }
