@@ -1,7 +1,5 @@
 {
-    experiments: {
-  topLevelAwait: true
-}
+  
     "language":[
 
     {"title": "#python",
