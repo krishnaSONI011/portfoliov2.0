@@ -1,0 +1,19 @@
+{
+    "language":[
+
+    {"title": "#python",
+    "start_code": "print(",
+    "codeinner": "'Hello world'",
+    "end_code": ")",
+    "logo":"https://raw.githubusercontent.com/krishnaSONI011/portfoliov2.0/main/src/images/python_logo.png"
+}
+
+    ,
+    
+         {   "title":"//javaScript",
+            "start_code":"console.log(",
+            "codeinner":"'Hello World'",
+            "end_code":")"
+        }
+    ]
+}

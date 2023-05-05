@@ -1,6 +1,6 @@
 import React,{useState} from "react";
-import logo from "../images/python_logo.png"
- let Skill_temp = ()=>{
+
+ let Skill_temp = (props)=>{
         let [x,setX] =useState(0)
     let [y,setY] =useState(0)
     let[total,settotal]=useState(0)
@@ -20,7 +20,7 @@ import logo from "../images/python_logo.png"
         }} onMouseMove={check} onMouseOut={()=>{setX(0);setY(0)}}>
             
             <div className="logo">
-            <img src={logo} alt="" className="" /></div>
+            <img src={props.logo} alt="" className="" /></div>
             <div className="corde-base">
                 <div className="codebase_head">
                     <div className="">
@@ -28,12 +28,12 @@ import logo from "../images/python_logo.png"
                     <span className="color-yellow "></span>
                     <span className="color-red "></span>
                     </div>
-                    <span className="silver-color">#Python</span>
+                    <span className="silver-color">{props.title}</span>
 
                 </div>
                 <div className="codebase_body text-center">
 
-                    <span style={{color:"red"}}>print(</span><span>"Hello world"</span><span style={{color:"red"}}>)</span>
+                    <span style={{color:"red"}}>{props.start_code}</span><span>{props.codeinner}</span><span style={{color:"red"}}>{props.end_code}</span>
                 </div>
             </div>
 
