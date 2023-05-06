@@ -224,3 +224,7 @@ ul {
 .skill:hover{
   box-shadow: 2px 2px 12px;
 }
+
+.mb-2{
+  margin-bottom: 20px;
+}

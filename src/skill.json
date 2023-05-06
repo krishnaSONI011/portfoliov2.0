@@ -13,7 +13,8 @@
          {   "title":"//javaScript",
             "start_code":"console.log(",
             "codeinner":"'Hello World'",
-            "end_code":")"
+            "end_code":")",
+            "logo":"https://raw.githubusercontent.com/krishnaSONI011/portfoliov2.0/main/src/images/js_logo.png"
         }
     ]
 }

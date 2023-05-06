@@ -15,7 +15,7 @@ import React,{useState} from "react";
         settotal((x+y)/10 )
     }
     return(
-        <div className="skill" style={{
+        <div className="skill mb-2" style={{
             transform:`rotate3d(${x},${y},0,${total}deg)`
         }} onMouseMove={check} onMouseOut={()=>{setX(0);setY(0)}}>
             
