@@ -18,7 +18,7 @@
         },
         {
             "title": "//java",
-            "start_code": "class main \n public static void main(String[]args){\n System.out.println(",
+            "start_code": "class main {                \n public static void main(String[]args){\n System.out.println(",
             "codeinner": "'Hello World'",
             "end_code": ")\n}}",
             "logo": "Java",
