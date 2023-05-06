@@ -67,7 +67,7 @@
          {
             "title": "{/*React js */}",
             "start_code": "let start=( )=>{ return(<div>",
-            "codeinner": "<h1>Hello World<h1>",
+            "codeinner": "<h1>Hello World</h1>",
             "end_code": "</div>)}",
             "logo": "React js",
             "position": ""
