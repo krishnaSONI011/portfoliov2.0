@@ -5,18 +5,16 @@ import React,{useState} from "react";
     let [y,setY] =useState(0)
     let[total,settotal]=useState(0)
     function check(e){
-        if(x >200){
-            setX("100")
-        }
+        
     //    console.log(e)
     //    console.log(e.nativeEvent.layerY )
-        setX(e.nativeEvent.layerX/2)
-        setY(e.nativeEvent.layerY/2)
-        settotal((x+y)/10 )
+        setX(e.nativeEvent.layerX/10)
+        setY(e.nativeEvent.layerY/10)
+        // settotal((x+y)/10 )
     }
     return(
         <div className="skill mb-2" style={{
-            transform:`rotate3d(${x},${y},0,${total}deg)`
+            transform:` rotateX(${x}deg) rotateY(${y}deg)`
         }} onMouseMove={check} onMouseOut={()=>{setX(0);setY(0)}}>
             
             <div className="logo">

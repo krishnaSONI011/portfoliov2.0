@@ -228,3 +228,6 @@ ul {
 .mb-2{
   margin-bottom: 20px;
 }
+.skill{
+  perspective: 300px
+}
