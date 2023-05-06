@@ -77,8 +77,9 @@
             "start_code": "<div class='container'><h1 class='p-2'>",
             "codeinner": "Hello World",
             "end_code": "</h1></div>",
-            "logo": "HTML",
+            "logo": "Bootstrap",
             "position": "align-item-end"
-        }
+        },
+      
     ]
 }
