@@ -5,7 +5,7 @@
             "start_code": "print(",
             "codeinner": "'Hello world'",
             "end_code": ")",
-            "logo": "https://raw.githubusercontent.com/krishnaSONI011/portfoliov2.0/main/src/images/python_logo.png",
+            "logo": "Python",
             "position": ""
         },
         {
@@ -13,7 +13,7 @@
             "start_code": "console.log(",
             "codeinner": "'Hello World'",
             "end_code": ")",
-            "logo": "https://raw.githubusercontent.com/krishnaSONI011/portfoliov2.0/main/src/images/js_logo.png",
+            "logo": "JavaScript",
             "position": "align-item-end"
         },
         {
@@ -21,7 +21,7 @@
             "start_code": "class main \n public static void main(String[]args){\n System.out.println(",
             "codeinner": "'Hello World'",
             "end_code": ")\n}}",
-            "logo": "https://raw.githubusercontent.com/krishnaSONI011/portfoliov2.0/main/src/images/java-logo-1.png",
+            "logo": "Java",
             "position": ""
         },
         {
@@ -29,7 +29,7 @@
             "start_code": "<html> \n <body> <h1>",
             "codeinner": "Hello World",
             "end_code": "</h1> </body> /n <html>",
-            "logo": "https://raw.githubusercontent.com/krishnaSONI011/portfoliov2.0/main/src/images/html-removebg-preview.png",
+            "logo": "HTML",
             "position": "align-item-end"
         }
     ]
