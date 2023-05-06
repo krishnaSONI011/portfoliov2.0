@@ -21,7 +21,7 @@ let Skill =()=>{
         }}>
         <div className="container">
             <div className="flex">
-             <div className="timeline"> <div className="bullet"></div> </div>
+             <div className="timeline" style={{height: '1000px'}}> <div className="bullet"></div> </div>
              <span className="silver-color  p-2 ">Skills/&gt;</span>
              <div className="forskill p-3 ">
                 
