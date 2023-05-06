@@ -7,7 +7,7 @@ import axios from 'axios'
 let Skill =()=>{
     let [data,setData] =useState([])
   useEffect(()=>{
-    let url ="https://raw.githubusercontent.com/krishnaSONI011/portfoliov2.0/main/src/skill.json"
+    const url ="https://raw.githubusercontent.com/krishnaSONI011/portfoliov2.0/main/src/skill.json"
     axios.get(url).then((response)=>{setData(response.data)
            
         console.log(response.data)
