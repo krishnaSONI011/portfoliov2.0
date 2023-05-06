@@ -42,11 +42,19 @@
         },
          {
             "title": "//PHP",
-            "start_code": "<?php echo",
-            "codeinner": "'Hello World'",
-            "end_code": "?>",
+            "start_code": "<?php echo ",
+            "codeinner": " 'Hello World' ",
+            "end_code": " ?>",
             "logo": "PHP",
             "position": "align-item-end"
+        },
+         {
+            "title": "Git",
+            "start_code": "git commit -m ",
+            "codeinner": "'Hello World'",
+            "end_code": " ",
+            "logo": "Git",
+            "position": ""
         }
     ]
 }
