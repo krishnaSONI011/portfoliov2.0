@@ -192,7 +192,7 @@ ul {
   height: 200px;
 }
 
-.corde-base {}
+.corde-base {width: 100%;}
 
 .skill {
 
@@ -219,7 +219,7 @@ ul {
   height: 170px;
 }
 .forskill{
-  width: 40%;
+  width: 100%;
 }
 .skill:hover{
   box-shadow: 2px 2px 12px;
@@ -229,5 +229,17 @@ ul {
   margin-bottom: 20px;
 }
 .skill{
+  
+  width: 40%;
+  display: flex;
   perspective: 300px
+}
+.align-item-end{
+  align-items: end;
+}
+.flex-direction-column{
+  flex-direction: column;
+}
+.main-skill{
+  width: 100%;
 }

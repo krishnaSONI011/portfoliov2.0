@@ -26,7 +26,7 @@ let Skill =()=>{
              <div className="forskill p-3 ">
                 
                 {data.language?.map((language)=>{
-                   return  <Skill_temp title={language.title} start_code={language.start_code} codeinner={language.codeinner} end_code={language.end_code} logo={language.logo} />
+                   return  <Skill_temp title={language.title} start_code={language.start_code} codeinner={language.codeinner} end_code={language.end_code} logo={language.logo} position={language.position} />
                 })}
             
 

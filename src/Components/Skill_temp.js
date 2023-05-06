@@ -13,6 +13,8 @@ import React,{useState} from "react";
         // settotal((x+y)/10 )
     }
     return(
+        <div className={`flex flex-direction-column main-skill ${props.position==" " ? " ":props.position}`}>
+            
         <div className="skill mb-2" style={{
             transform:` rotateX(${x}deg) rotateY(${y}deg)`
         }} onMouseMove={check} onMouseOut={()=>{setX(0);setY(0)}}>
@@ -36,6 +38,7 @@ import React,{useState} from "react";
             </div>
 
         </div>
+            </div>
     )
  }
 
