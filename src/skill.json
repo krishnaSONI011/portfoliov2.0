@@ -1,23 +1,28 @@
 {
-  
-    "language":[
-
-    {"title": "#python",
-    "start_code": "print(",
-    "codeinner": "'Hello world'",
-    "end_code": ")",
-    "logo":"https://raw.githubusercontent.com/krishnaSONI011/portfoliov2.0/main/src/images/python_logo.png",
-    "position":""
-}
-
-    ,
-    
-         {   "title":"//javaScript",
-            "start_code":"console.log(",
-            "codeinner":"'Hello World'",
-            "end_code":")",
-            "logo":"https://raw.githubusercontent.com/krishnaSONI011/portfoliov2.0/main/src/images/js_logo.png",
-            "position":"align-item-end"
+    "language": [
+        {
+            "title": "#python",
+            "start_code": "print(",
+            "codeinner": "'Hello world'",
+            "end_code": ")",
+            "logo": "https://raw.githubusercontent.com/krishnaSONI011/portfoliov2.0/main/src/images/python_logo.png",
+            "position": ""
+        },
+        {
+            "title": "//javaScript",
+            "start_code": "console.log(",
+            "codeinner": "'Hello World'",
+            "end_code": ")",
+            "logo": "https://raw.githubusercontent.com/krishnaSONI011/portfoliov2.0/main/src/images/js_logo.png",
+            "position": "align-item-end"
+        },
+        {
+            "title": "//java",
+            "start_code": "class main{<br>public static void main(String[]args){<br>System.out.println(",
+            "codeinner": "'Hello World'",
+            "end_code": ")<br>}}",
+            "logo": "aw.githubusercontent.com/krishnaSONI011/portfoliov2.0/main/src/images/java-logo-1.png",
+            "position": ""
         }
     ]
 }
