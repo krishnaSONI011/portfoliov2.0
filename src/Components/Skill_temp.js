@@ -20,7 +20,9 @@ import React,{useState} from "react";
         }} onMouseMove={check} onMouseOut={()=>{setX(0);setY(0)}}>
             
             <div className="logo">
-            <img src={props.logo} alt="" className="" /></div>
+            {/* <img src={props.logo} alt="" className="" /> */}
+            <h1>{props.logo}</h1>
+            </div>
             <div className="corde-base">
                 <div className="codebase_head">
                     <div className="">

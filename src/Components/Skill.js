@@ -25,7 +25,7 @@ let Skill =()=>{
              <span className="silver-color  p-2 ">Skills/&gt;</span>
              <div className="forskill p-3 ">
                 
-                {data.language?.map((language)=>{ console.log(language.logo)
+                {data.language?.map((language)=>{  
                    return  <Skill_temp title={language.title} start_code={language.start_code} codeinner={language.codeinner} end_code={language.end_code} logo={language.logo} position={language.position} />
                    
                 })}

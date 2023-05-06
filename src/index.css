@@ -229,7 +229,7 @@ ul {
   margin-bottom: 20px;
 }
 .skill{
-  
+  border-radius: 10px;
   width: 40%;
   display: flex;
   perspective: 300px
@@ -242,4 +242,10 @@ ul {
 }
 .main-skill{
   width: 100%;
+}
+.logo h1{
+  padding: 10px;
+  border-bottom: 3px solid white;
+  font-weight: bold;
+  text-shadow: 6px 3px 5px red;
 }
