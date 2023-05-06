@@ -31,6 +31,14 @@
             "end_code": "</h1> </body> /n <html>",
             "logo": "HTML",
             "position": "align-item-end"
+        },
+         {
+            "title": "/* CSS */",
+            "start_code": ".root::after{",
+            "codeinner": "'Hello World'",
+            "end_code": "}",
+            "logo": "CSS",
+            "position": ""
         }
     ]
 }
