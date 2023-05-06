@@ -71,7 +71,7 @@
             "end_code": "</div>)}",
             "logo": "React js",
             "position": ""
-        }
+        },
          {
             "title": "Bootstrap",
             "start_code": "<div class='container'><h1 class='p-2'>",
@@ -79,7 +79,7 @@
             "end_code": "</h1></div>",
             "logo": "Bootstrap",
             "position": "align-item-end"
-        },
+        }
       
     ]
 }
