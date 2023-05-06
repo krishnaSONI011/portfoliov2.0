@@ -21,7 +21,7 @@
             "start_code": "class main{<br />public static void main(String[]args){<br />System.out.println(",
             "codeinner": "'Hello World'",
             "end_code": ")<br />}}",
-            "logo": "raw.githubusercontent.com/krishnaSONI011/portfoliov2.0/main/src/images/java-logo-1.png",
+            "logo": "https://raw.githubusercontent.com/krishnaSONI011/portfoliov2.0/main/src/images/java-logo-1.png",
             "position": ""
         }
     ]
