@@ -71,6 +71,14 @@
             "end_code": "</div>)}",
             "logo": "React js",
             "position": ""
+        },
+         {
+            "title": "Bootstrap",
+            "start_code": "<div class='container'><h1 class='p-2'>",
+            "codeinner": "Hello World",
+            "end_code": "</h1></div>",
+            "logo": "HTML",
+            "position": "align-item-end"
         }
     ]
 }
