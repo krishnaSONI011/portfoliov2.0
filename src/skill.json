@@ -34,8 +34,8 @@
         },
          {
             "title": "/* CSS */",
-            "start_code": ".root::after{",
-            "codeinner": "'Hello World'",
+            "start_code": ".root::after{ content:",
+            "codeinner": "'Hello World';",
             "end_code": "}",
             "logo": "CSS",
             "position": ""
