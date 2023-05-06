@@ -39,6 +39,14 @@
             "end_code": "}",
             "logo": "CSS",
             "position": ""
+        },
+         {
+            "title": "//PHP",
+            "start_code": "<?php echo",
+            "codeinner": "'Hello World'",
+            "end_code": "?>",
+            "logo": "PHP",
+            "position": "align-item-end"
         }
     ]
 }
